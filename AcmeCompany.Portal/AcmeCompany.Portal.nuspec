@@ -11,13 +11,5 @@
   </metadata>
   <files>
     <file src="bin\*.dll" target="content\bin" />
-    <file src="Content\**.*" target="content\Content"/>
-    <file src="fonts\**.*" target="content\fonts"/>
-    <file src="Scripts\**.*" target="content\Scripts"/>
-    <file src="Views\**.*" target="content\Views"/>
-    <file src="favicon.ico" target="content"/>
-    <file src="Global.asax" target="content"/>
-    <file src="Web.config" target="content"/>
-    <file src="Web.*.config" target="content"/>
   </files>
 </package>
