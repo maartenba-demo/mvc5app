@@ -9,5 +9,11 @@ namespace AcmeCompany.Portal.Tests
         {
             Assert.IsTrue(true);
         }
+		
+        [Test]
+        public void TestContactAddressIsVisible()
+        {
+            Assert.IsTrue(true);
+        }
     }
 }
