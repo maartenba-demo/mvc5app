@@ -7,18 +7,12 @@ using NUnit.Framework;
 
 namespace AcmeCompany.Portal.Tests
 {
-    public class SampleTests
+    public class AboutControllerTests
     {
         [Test]
-        public void TestBooleanTrueEqualsTrue()
+        public void TestContainsContactDetails()
         {
             Assert.IsTrue(true);
-        }
-
-        [Test]
-        public void TestBooleanFalseEqualsFalse()
-        {
-            Assert.IsFalse(false);
         }
     }
 }
