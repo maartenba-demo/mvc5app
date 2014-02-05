@@ -14,5 +14,14 @@ namespace AcmeCompany.Portal.Tests
         {
             Assert.IsTrue(true);
         }
+        
+
+        [Test]
+        public void TestSomethingElse()
+        {
+            // Making the boss happy
+            // by adding more unit tests.
+            Assert.IsTrue(true);
+        }
     }
 }
