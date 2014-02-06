@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Configuration
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,7 +7,6 @@
     <title>@ViewBag.Title - AcmeCompany Portal</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -33,7 +33,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - AcmeCompany</p>
+            <p>&copy; @DateTime.Now.Year - AcmeCompany - Running on @ConfigurationManager.AppSettings["PortalEnvironment"]</p>
         </footer>
     </div>
 
