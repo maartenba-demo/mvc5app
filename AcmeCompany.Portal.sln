@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCompany.Portal", "AcmeCompany.Portal\AcmeCompany.Portal.csproj", "{8EE6D81A-799C-49B2-9856-8B3F830F8E86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AEFB3DB4-84E4-41F3-AEEC-1585D9ACB8C4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCompany.Portal.Tests", "AcmeCompany.Portal.Tests\AcmeCompany.Portal.Tests.csproj", "{6D8DB4D7-CF92-4B8D-864F-71AB86FB8C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE6D81A-799C-49B2-9856-8B3F830F8E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE6D81A-799C-49B2-9856-8B3F830F8E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE6D81A-799C-49B2-9856-8B3F830F8E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE6D81A-799C-49B2-9856-8B3F830F8E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8DB4D7-CF92-4B8D-864F-71AB86FB8C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8DB4D7-CF92-4B8D-864F-71AB86FB8C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8DB4D7-CF92-4B8D-864F-71AB86FB8C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8DB4D7-CF92-4B8D-864F-71AB86FB8C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
